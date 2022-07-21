@@ -7,8 +7,13 @@ function verifica(valor) {
     return false
   }
 }
-
 console.log(verifica(6))
+
+//ou (exemplo do professor)
+
+function isTruthy(dado) {
+  return !!dado
+}
 
 // Crie uma função matemática que retorne o perímetro de um quadrado
 // lembrando: perímetro é a soma dos quatro lados do quadrado
@@ -21,6 +26,12 @@ function perimetroQuadrado () {
 }
 console.log(perimetroQuadrado())
 
+//ou exemplo do professor
+function perimetroQuadrado1(val) {
+  return val *4
+}
+console.log(perimetroQuadrado1(3))
+
 // Crie uma função que retorne o seu nome completo
 // ela deve possuir os parâmetros: nome e sobrenome
 function nomeCompleto(){
@@ -28,8 +39,14 @@ function nomeCompleto(){
   var sobrenome = "costa";
   return `Seu nome completo é: ${nome} ${sobrenome}`
 }
-
 console.log(nomeCompleto())
+
+// do professor 
+function nomeComplet(nomes, sobrenomes) {
+  return `${nomes}  ${sobrenomes}`
+}
+console.log(nomeComplet("Nicolly", "Costa"))
+
 
 // Crie uma função que verifica se um número é par
 function verificaNumero(num){
@@ -39,6 +56,7 @@ function verificaNumero(num){
     return 'Este número é impar'
   }
 }
+
 
 console.log(verificaNumero(2));
 
